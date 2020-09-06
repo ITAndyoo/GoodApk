@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UploadTest</title>
+</head>
+
+<body>
+        <h1>请选择图片并点击上传按钮</h1>
+        <form action="/upload/" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="picture">
+            <button type="submit">上传</button>
+        </form>
+        <!--<img src="/static/media/{{ img.pic_url }}" alt="">-->
+</body>
+</html>
