@@ -21,3 +21,7 @@
 > 线上：Apache2.4 + AliCloud Centos7
 >
 > 演示：<https://goodapk.changle.xyz>
+
+### 引用
+
+><https://github.com/Sierkinhane/CRNN_Chinese_Characters_Rec>
